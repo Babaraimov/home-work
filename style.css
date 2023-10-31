@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url(./fonts/WorkSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url(./fonts/WorkSans-Medium.ttf);
+  font-weight: 600;
+}
+
+body {
+  background: #2b2b2b;
+  font-family: "Work Sans";
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* align-self: stretch; */
+}
+.header__nav__left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* justify-content: space-between; */
+}
+.header__nav__rigth {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  /* justify-content: space-around; */
+}
+.header__nav__store {
+  color: #a259ff;
+  font-size: 35px;
+}
+.header__nav__nft {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 140%;
+}
+.header__nav__market {
+  color: #fff;
+  /* text-align: center; */
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+}
+.header__nav__sign {
+  color: #fff;
+  /* text-align: center; */
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 15px;
+  background: #a259ff;
+  position: relative;
+  /* position: absolute; */
+}
+.header__nav__person {
+  padding-right: 12px;
+}
