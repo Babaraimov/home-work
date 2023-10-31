@@ -13,6 +13,7 @@
 body {
   background: #2b2b2b;
   font-family: "Work Sans";
+  padding: 0px 15px;
 }
 a {
   text-decoration: none;
@@ -41,15 +42,16 @@ a {
   /* justify-content: space-around; */
 }
 .header__nav__store {
-  color: #a259ff;
-  font-size: 35px;
+  background: url(./img/store/nav/nav/Storefront.svg) 0 0 / cover;
+  width: 40px;
+  height: 40px;
 }
 .header__nav__nft {
-  color: #fff;
-  font-family: "Work Sans";
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 140%;
+  /* font-weight: 30px; */
+  background: url(./img/NFT\ Marketplace.svg) 0 0 / cover;
+
+  width: 240px;
+  height: 20px;
 }
 .header__nav__market {
   color: #fff;
